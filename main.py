@@ -106,7 +106,6 @@ for el in BS.find_all('recipe'):
 with open('steps_sample.json','w') as w:
     json.dump(res,w
 #3.2
-from IPython.lib.display import YouTubeVideo
 with open('steps_sample.xml') as f:
     BS=BeautifulSoup(f,'xml')
 res=list()
